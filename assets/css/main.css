@@ -1,5 +1,8 @@
+/* Existing fonts */
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
+/* New font */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*
 	Dopetrope by HTML5 UP
@@ -84,7 +87,7 @@ input, select, textarea {
 
 	body {
 		background: #252122;
-		background-image: url("images/bg02.png");
+		background-image: url("images/bg.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -99,7 +102,7 @@ input, select, textarea {
 		}
 
 	body, input, textarea, select {
-		font-family: 'Source Sans Pro';
+		font-family: 'Noto Serif', 'Source Sans Pro';
 		font-weight: 300;
 		color: #5d5d5d;
 		font-size: 14pt;
@@ -2289,7 +2292,7 @@ input, select, textarea {
 
 	#main1 {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #f7f7f7 url("images/bg.png");
 		padding: 4em 0 4em 0;
 	}
 
@@ -2299,20 +2302,20 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			background: url("images/bg.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
 
 		#main1 .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #f7f7f7 url("images/bg.png");
 		}
 
 /* Main2 */
 #main2 {
 		position: relative;
-		background: #f7f7f7 url("images/bg02.png");
+		background: #f7f7f7 url("images/bg.png");
 		padding: 4em 0 4em 0;
 	}
 
@@ -2322,14 +2325,14 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			background: url("images/bg.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.1;
 		}
 
 		#main2 .major h2 {
-			background: #f7f7f7 url("images/bg02.png");
+			background: #f7f7f7 url("images/bg.png");
 		}
 /* Footer */
 
@@ -2345,7 +2348,7 @@ input, select, textarea {
 			top: 0;
 			left: 0;
 			width: 100%;
-			background: url("images/bg01.png");
+			background: url("images/bg.png");
 			background-size: 100% 100%;
 			z-index: 0;
 			opacity: 0.5;
@@ -2685,7 +2688,7 @@ input, select, textarea {
 				width: 275px;
 				z-index: 10002;
 				color: #858484;
-				background-image: url("images/bg02.png");
+				background-image: url("images/bg.png");
 				box-shadow: inset -3px 0px 5px 0px rgba(0, 0, 0, 0.35);
 			}
 
