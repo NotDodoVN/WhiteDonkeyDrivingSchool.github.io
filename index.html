@@ -520,10 +520,10 @@ After having many first trials with many other popular driving schools, I went w
 
 	function getSectionID() {
 		const sections = document.querySelectorAll('#header,#nav,#banner,#intro,#main1, #main2');
-		console.log(Array.from(sections).map(sec => sec.innerText));
-		console.log(Array.from(sections).map(sec => sec.innerText).join(' '));
+		// console.log(Array.from(sections).map(sec => sec.innerText));
+		// console.log(Array.from(sections).map(sec => sec.innerText).join(' '));
 		return Array.from(sections).map(sec => sec.innerText).join(' ');
-		// Use an array to store the extracted texts from the section ids and joining the innertext of those section together
+		// Use an array to store the extracted texts from the section ids and joining the text of those section together
 			
 	}	
 
